@@ -14,7 +14,8 @@ Adjunta columnas 'First name' , 'last name' de la tabla actors a film.
 Realizada esta limpieza previa, se dispone a trabajar en Sql, para lo que activa un conector, a continuación exporta los tres ficheros con los que va a trabajar a Sql.
 
 b. Creación de un schema para relacionar 4 tablas (df_inventory, df_rental, df_films y una que va a crear denominada df_costumers)
-Mediante esta configuración crea varias relaciones que se detallan en code.
+Mediante esta configuración crea varias relaciones que se detallan en code. Se ajustan columnas aparentemente iguales con tamaños distintos para que puedan 
+confluir y ser efectivaas en el manejo de los datpos
 
 c.Comprobación de ese schema y su conversión en código y seguridad de que todas las relaciones entre las cuatro tablas funcionan satisfactoriamente
 
@@ -22,4 +23,6 @@ c.Comprobación de ese schema y su conversión en código y seguridad de que tod
 d. Realización de variadas queries para darle agilidad en el trabajo y poder saber cuantas películas 
 tiene alquiladas, a quién, género de la pelicula, idioma de V.O., precios, etc.
 
-3. Fuentes aportadas
+3. Conclusión
+La base de datos se encuentra completamente ajustada y comprobada para poder facilitar al emprendedor el control de sus tareas de alquiler en el video club.
+
